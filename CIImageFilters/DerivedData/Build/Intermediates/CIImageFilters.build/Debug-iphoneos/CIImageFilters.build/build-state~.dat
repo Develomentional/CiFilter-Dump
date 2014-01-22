@@ -1,0 +1,430 @@
+TCIImageFilters
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/ResourceRules.plist
+cProcessPCH /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch.pch CIImageFilters/CIImageFilters-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_ViewController.o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_AppDelegate.o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/main.o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters normal arm64
+cCompileStoryboard /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPad.storyboard
+cCompileStoryboard /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPhone.storyboard
+cCopyStringsFile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/en.lproj/InfoPlist.strings CIImageFilters/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Images.xcassets
+cProcessInfoPlistFile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Info.plist /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/CIImageFilters-Info.plist
+cGenerateDSYMFile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app.dSYM /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters
+cProcessProductPackaging /Users/develomentional/Library/MobileDevice/Provisioning\ Profiles/863B5876-FA47-4401-8428-B8CF248EC9D7.mobileprovision /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/embedded.mobileprovision
+cTouch /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters.xcent
+cCodeSign /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c0000000052815DA80000000000000110
+t1384209832
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+c00000000523BAFB20000000000000094
+t1379643314
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+c00000000523BAFB20000000000000096
+t1379643314
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c00000000523BAFB2000000000000036B
+t1379643314
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005267113400000000000001A0
+t1382486324
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005267113500000000004D63C0
+t1382486325
+s5071808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000526711360000000000A92BC0
+t1382486326
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005267113D00000000025A5AC0
+t1382486333
+s39475904
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000523BB00A0000000000000AC9
+t1379643402
+s2761
+
+N/Users/develomentional/Library/MobileDevice/Provisioning Profiles/863B5876-FA47-4401-8428-B8CF248EC9D7.mobileprovision
+c0000000052D84E110000000000002A9B
+t1389907473
+s10907
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPad.storyboard
+c0000000052DEF7270000000000000647
+t1390343975
+s1607
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPhone.storyboard
+c0000000052DEF8A80000000000000BC6
+t1390344360
+s3014
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/CIImageFilters-Info.plist
+c0000000052DEF7270000000000000633
+t1390343975
+s1587
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/CIImageFilters-Prefix.pch
+c0000000052DEF7270000000000000158
+t1390343975
+s344
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_AppDelegate.m
+c0000000052DEF72700000000000007F0
+t1390343975
+s2032
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_ViewController.m
+c0000000052DEFBC70000000000000E2E
+t1390345159
+s3630
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Images.xcassets
+c0000000052DEF7270000000000000088
+t1390343975
+s136
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/en.lproj/InfoPlist.strings
+c0000000052DEF727000000000000002D
+t1390343975
+s45
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/main.m
+c0000000052DEF7270000000000000167
+t1390343975
+s359
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters.xcent
+t1390345162
+s630
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/CIImageFilters.LinkFileList
+c0000000052DEFBC70000000000000230
+t1390345159
+s560
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_AppDelegate.o
+t1390345160
+s69396
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_ViewController.o
+t1390345160
+s59880
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/main.o
+t1390345160
+s4340
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/assetcatalog_dependencies.txt
+t1390345162
+s486
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/assetcatalog_generated_info.plist
+t1390345162
+s525
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch.pch
+t1390345160
+s96132
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app
+t1390345162
+s374
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app.dSYM
+t2
+s0
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Base.lproj/Main_iPad.storyboardc
+t1390345161
+s170
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Base.lproj/Main_iPhone.storyboardc
+t1390345161
+s170
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters
+t1390345160
+s58016
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Info.plist
+t1390345162
+s1581
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/PkgInfo
+t1390345162
+s8
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/ResourceRules.plist
+t1390345159
+s150
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/embedded.mobileprovision
+t1390345162
+s10907
+
+N/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/en.lproj/InfoPlist.strings
+t1390345160
+s42
+
+CBuild AST from /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_AppDelegate.m
+r0
+
+CBuild AST from /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_ViewController.m
+r0
+
+CBuild AST from /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesace14e47338fb841^3a205d47338fb841^---0#1#1#--18"Check dependencies36"8BF81FD5-44E3-4358-B3BF-C066B87F9624-
+
+CCodeSign /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app
+s412037962.519163
+e412037964.188789
+r1
+xCodeSign
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"CodeSign DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app69"CodeSign DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app9607854a338fb841^a697304c338fb841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/0000000000000000^1176"CodeSign DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Jeffry Bobb (G4V54239UR)" and provisioning profile "iOS Team Provisioning Profile: *" (863B5876-FA47-4401-8428-B8CF248EC9D7)    codesign --force --sign 118731C9B327CECB22F627493DAC7F8BBA808E1F --resource-rules=/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/ResourceRules.plist --entitlements /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters.xcent /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app36"84FC8BF6-B480-4040-946D-573DFBD180CA-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CCompileAssetCatalog /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Images.xcassets
+s412037960.878616
+e412037962.459709
+r1
+xCompileAssetCatalog
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/LaunchImage-700-568h@2x.png
+o/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Assets.car
+o/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CompileAssetCatalog DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app CIImageFilters/Images.xcassets111"CompileAssetCatalog DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app CIImageFilters/Images.xcassets350ae148338fb841^d1af754a338fb841^-514"/* com.apple.actool.compilation-results *//Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/LaunchImage-700-568h@2x.png/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Assets.car/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@100"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Images.xcassets/0000000000000000^1291"CompileAssetCatalog DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app CIImageFilters/Images.xcassets    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --target-device ipad --compress-pngs --compile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Images.xcassets36"A221202E-13FB-42EA-A109-FFCE524BBA21-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CCompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_AppDelegate.o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412037960.771113
+e412037960.846954
+r1
+xCompileC
+xDerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_AppDelegate.o
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_AppDelegate.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_AppDelegate.m
+d/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_AppDelegate.m236"CompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_AppDelegate.o CIImageFilters/Dv_AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7786c548338fb841^d4d2d848338fb841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_AppDelegate.m0000000000000000^4183"CompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_AppDelegate.o CIImageFilters/Dv_AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-generated-files.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-own-target-headers.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-all-target-headers.hmap -iquote /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-project-headers.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/DerivedSources/arm64 -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/DerivedSources -F/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos -include /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch -MMD -MT dependencies -MF /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_AppDelegate.d --serialize-diagnostics /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_AppDelegate.dia -c /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_AppDelegate.m -o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_AppDelegate.o36"65C906D4-18EB-43E3-9DB6-976503A410EC-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CCompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_ViewController.o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412037960.770702
+e412037960.849467
+r1
+xCompileC
+xDerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_ViewController.o
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_ViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_ViewController.m
+d/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_ViewController.m242"CompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_ViewController.o CIImageFilters/Dv_ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilere085c548338fb841^d977d948338fb841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_ViewController.m0000000000000000^4201"CompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_ViewController.o CIImageFilters/Dv_ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-generated-files.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-own-target-headers.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-all-target-headers.hmap -iquote /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-project-headers.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/DerivedSources/arm64 -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/DerivedSources -F/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos -include /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch -MMD -MT dependencies -MF /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_ViewController.d --serialize-diagnostics /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_ViewController.dia -c /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_ViewController.m -o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_ViewController.o36"6DD7762F-2D4F-45BC-BD5E-EB10762F4D40-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CCompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/main.o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412037960.771914
+e412037960.830398
+r1
+xCompileC
+xDerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/main.o
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/main.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/main.m
+d/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Dv_AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/main.m216"CompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/main.o CIImageFilters/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilera1bac548338fb841^5b95d448338fb841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/main.m0000000000000000^4123"CompileC DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/main.o CIImageFilters/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-generated-files.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-own-target-headers.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-all-target-headers.hmap -iquote /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-project-headers.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/DerivedSources/arm64 -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/DerivedSources -F/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos -include /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch -MMD -MT dependencies -MF /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/main.dia -c /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/main.m -o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/main.o36"88C2C596-0216-4B03-8E28-6150EF385813-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CCompileStoryboard /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPad.storyboard
+s412037960.876481
+e412037961.910996
+r1
+xCompileStoryboard
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPad.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CompileStoryboard CIImageFilters/Base.lproj/Main_iPad.storyboard64"CompileStoryboard CIImageFilters/Base.lproj/Main_iPad.storyboarde57de048338fb841^1538e949338fb841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPad.storyboard0000000000000000^897"CompileStoryboard CIImageFilters/Base.lproj/Main_iPad.storyboard    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Base.lproj/Main_iPad.storyboardc /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPad.storyboard36"1852D360-391C-45E2-BFF3-45FB388CB128-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CCompileStoryboard /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPhone.storyboard
+s412037960.876747
+e412037961.015669
+r1
+xCompileStoryboard
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPhone.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CompileStoryboard CIImageFilters/Base.lproj/Main_iPhone.storyboard66"CompileStoryboard CIImageFilters/Base.lproj/Main_iPhone.storyboard9488e048338fb841^36030449338fb841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPhone.storyboard0000000000000000^903"CompileStoryboard CIImageFilters/Base.lproj/Main_iPhone.storyboard    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Base.lproj/Main_iPhone.storyboardc /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/Base.lproj/Main_iPhone.storyboard36"B570A293-3D43-46AD-8248-33EC7444FC48-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CCopyStringsFile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/en.lproj/InfoPlist.strings CIImageFilters/en.lproj/InfoPlist.strings
+s412037960.877230
+e412037960.879854
+r1
+xCopyStringsFile
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/en.lproj/InfoPlist.strings
+xCIImageFilters/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy CIImageFilters/en.lproj/InfoPlist.strings145"CopyStringsFile DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/en.lproj/InfoPlist.strings CIImageFilters/en.lproj/InfoPlist.strings00aae048338fb841^e047e148338fb841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/en.lproj/InfoPlist.strings0000000000000000^670"CopyStringsFile DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/en.lproj/InfoPlist.strings CIImageFilters/en.lproj/InfoPlist.strings    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/en.lproj -- CIImageFilters/en.lproj/InfoPlist.strings36"1AC255F6-A9A3-4394-91F1-90742503CC9B-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/ResourceRules.plist
+s412037959.364189
+e412037959.365960
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+xDerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/ResourceRules.plist213"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/ResourceRules.plist40515d47338fb841^f1845e47338fb841^---0#0#1#-19%DVTDocumentLocation2@149"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/ResourceRules.plist003460ebdcffdf42^828"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/ResourceRules.plist    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app36"F8FDF0D3-AA01-4495-A929-E468B4E59BD2-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CGenerateDSYMFile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app.dSYM /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters
+s412037962.463116
+e412037962.493100
+r1
+xGenerateDSYMFile
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app.dSYM
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Generate /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app.dSYM158"GenerateDSYMFile DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app.dSYM DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters4e9a764a338fb841^643c7e4a338fb841^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app.dSYM003460ebdcffdf42^785"GenerateDSYMFile DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app.dSYM DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters -o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app.dSYM36"ECAFF33D-95A0-45DA-AAF0-F5C6E563FE78-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CLd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters normal arm64
+s412037960.850211
+e412037960.875681
+r1
+xLd
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters
+xnormal
+xarm64
+d/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/CIImageFilters.LinkFileList
+d/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_ViewController.o
+d/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/Dv_AppDelegate.o
+d/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Link /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters91"Ld DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters normal arm6488b8d948338fb841^dc2ee048338fb841^---0#0#1#--1550"Ld DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters normal arm64    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos -F/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos -filelist /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/CIImageFilters.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/Objects-normal/arm64/CIImageFilters_dependency_info.dat -o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/CIImageFilters36"ECEED508-F6A8-43EE-9F8F-D3B871BD9A2A-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CProcessInfoPlistFile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Info.plist /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/CIImageFilters-Info.plist
+s412037962.460315
+e412037962.462674
+r1
+xProcessInfoPlistFile
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Info.plist
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/CIImageFilters-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Process /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/CIImageFilters-Info.plist133"ProcessInfoPlistFile DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Info.plist CIImageFilters/CIImageFilters-Info.plist32e7754a338fb841^3a74764a338fb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/CIImageFilters-Info.plist0000000000000000^1228"ProcessInfoPlistFile DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Info.plist CIImageFilters/CIImageFilters-Info.plist    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/CIImageFilters-Info.plist -genpkginfo /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/ResourceRules.plist -additionalcontentfile /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/assetcatalog_generated_info.plist -o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/Info.plist36"1EF23A04-10BD-4555-A273-FDE5B2891FCE-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CProcessPCH /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch.pch CIImageFilters/CIImageFilters-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412037959.366875
+e412037960.769862
+r1
+xProcessPCH
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch.pch
+xCIImageFilters/CIImageFilters-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/CIImageFilters-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile CIImageFilters/CIImageFilters-Prefix.pch252"ProcessPCH DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch.pch CIImageFilters/CIImageFilters-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler740a5e47338fb841^1216c548338fb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/CIImageFilters-Prefix.pch0000000000000000^4027"ProcessPCH DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch.pch CIImageFilters/CIImageFilters-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-generated-files.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-own-target-headers.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-all-target-headers.hmap -iquote /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters-project-headers.hmap -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/DerivedSources/arm64 -I/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/DerivedSources -F/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch.dia -MMD -MT dependencies -MF /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch.d -c /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/CIImageFilters/CIImageFilters-Prefix.pch -o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/PrecompiledHeaders/CIImageFilters-Prefix-byplaqjwomjtrtfrwhdkjsjbnewz/CIImageFilters-Prefix.pch.pch36"EF34CC42-5574-4DD9-9D87-287324646EE6-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CProcessPCH /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/CIImageFilters/Index/PrecompiledHeaders/CIImageFilters-Prefix-chrshiqshkqkskfwhhagatenukvn_ast/CIImageFilters-Prefix.pch.pch CIImageFilters/CIImageFilters-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters.xcent
+s412037962.516813
+e412037962.518584
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection254"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters.xcent254"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters.xcent4963844a338fb841^4cc3844a338fb841^---0#0#1#-19%DVTDocumentLocation2@178"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters.xcent003460ebdcffdf42^870"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters.xcent    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Intermediates/CIImageFilters.build/Debug-iphoneos/CIImageFilters.build/CIImageFilters.xcent36"D8589461-A15C-4287-A167-8B4648F75BC8-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CProcessProductPackaging /Users/develomentional/Library/MobileDevice/Provisioning\ Profiles/863B5876-FA47-4401-8428-B8CF248EC9D7.mobileprovision /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/embedded.mobileprovision
+s412037962.493584
+e412037962.514944
+r1
+xProcessProductPackaging
+x/Users/develomentional/Library/MobileDevice/Provisioning Profiles/863B5876-FA47-4401-8428-B8CF248EC9D7.mobileprovision
+x/Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection229"ProcessProductPackaging /Users/develomentional/Library/MobileDevice/Provisioning\ Profiles/863B5876-FA47-4401-8428-B8CF248EC9D7.mobileprovision DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/embedded.mobileprovision229"ProcessProductPackaging /Users/develomentional/Library/MobileDevice/Provisioning\ Profiles/863B5876-FA47-4401-8428-B8CF248EC9D7.mobileprovision DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/embedded.mobileprovision5e687e4a338fb841^45d5834a338fb841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/embedded.mobileprovision003460ebdcffdf42^794"ProcessProductPackaging /Users/develomentional/Library/MobileDevice/Provisioning\ Profiles/863B5876-FA47-4401-8428-B8CF248EC9D7.mobileprovision DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/embedded.mobileprovision    cd /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/develomentional/Library/MobileDevice/Provisioning\ Profiles/863B5876-FA47-4401-8428-B8CF248EC9D7.mobileprovision -o /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app/embedded.mobileprovision36"AACF96C0-F4F6-488B-B86E-B40B22387F34-
+b7E446A47-782B-40DE-813A-70B071400FD7
+
+CTouch /Users/develomentional/WorkSpaces/CiFilterDump/CIImageFilters/DerivedData/Build/Products/Debug-iphoneos/CIImageFilters.app
+r0
+

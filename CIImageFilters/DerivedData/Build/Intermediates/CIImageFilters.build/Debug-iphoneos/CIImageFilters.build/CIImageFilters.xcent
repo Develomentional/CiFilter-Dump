@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>6N3K9BJ8F7.com.DeveLLC.CIImageFilters</string>
+	<key>com.apple.developer.default-data-protection</key>
+	<string>NSFileProtectionComplete</string>
+	<key>com.apple.developer.pass-type-identifiers</key>
+	<array>
+		<string>6N3K9BJ8F7.*</string>
+	</array>
+	<key>get-task-allow</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>6N3K9BJ8F7.com.DeveLLC.CIImageFilters</string>
+	</array>
+</dict>
+</plist>
