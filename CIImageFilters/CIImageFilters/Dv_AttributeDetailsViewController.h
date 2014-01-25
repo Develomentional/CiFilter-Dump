@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface Dv_AttributeDetailsViewController : UITableViewController
-@property(nonatomic,strong)NSArray* details;
+@property(nonatomic,strong)NSMutableArray* details;
+@property(nonatomic,strong)NSDictionary* detailDictionary;
 @end

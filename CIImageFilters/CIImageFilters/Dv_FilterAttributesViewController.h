@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Dv_FilterCategoriesViewController.h"
 @interface Dv_FilterAttributesViewController : UITableViewController
 @property(nonatomic,strong)NSDictionary* filterAttributes;
 @end

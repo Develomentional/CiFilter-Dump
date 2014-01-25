@@ -25,6 +25,9 @@
 		0039B40F188F34250083DB91 /* Dv_FilterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039B40E188F34250083DB91 /* Dv_FilterListViewController.m */; };
 		0039B412188F36330083DB91 /* Dv_FilterAttributesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039B411188F36330083DB91 /* Dv_FilterAttributesViewController.m */; };
 		0039B415188FE5F90083DB91 /* Dv_AttributeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039B414188FE5F90083DB91 /* Dv_AttributeDetailsViewController.m */; };
+		0044F5E31893F07E005ACE87 /* Dv_TheAttributeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044F5E21893F07E005ACE87 /* Dv_TheAttributeDetailViewController.m */; };
+		0044F5E91893F1D4005ACE87 /* Dv_FilterCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044F5E81893F1D4005ACE87 /* Dv_FilterCategoriesViewController.m */; };
+		0044F5ED189405FF005ACE87 /* Dv_AllCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0044F5EC189405FF005ACE87 /* Dv_AllCategoriesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,12 @@
 		0039B411188F36330083DB91 /* Dv_FilterAttributesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dv_FilterAttributesViewController.m; sourceTree = "<group>"; };
 		0039B413188FE5F90083DB91 /* Dv_AttributeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dv_AttributeDetailsViewController.h; sourceTree = "<group>"; };
 		0039B414188FE5F90083DB91 /* Dv_AttributeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dv_AttributeDetailsViewController.m; sourceTree = "<group>"; };
+		0044F5E11893F07E005ACE87 /* Dv_TheAttributeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dv_TheAttributeDetailViewController.h; sourceTree = "<group>"; };
+		0044F5E21893F07E005ACE87 /* Dv_TheAttributeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dv_TheAttributeDetailViewController.m; sourceTree = "<group>"; };
+		0044F5E71893F1D4005ACE87 /* Dv_FilterCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dv_FilterCategoriesViewController.h; sourceTree = "<group>"; };
+		0044F5E81893F1D4005ACE87 /* Dv_FilterCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dv_FilterCategoriesViewController.m; sourceTree = "<group>"; };
+		0044F5EB189405FF005ACE87 /* Dv_AllCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dv_AllCategoriesViewController.h; sourceTree = "<group>"; };
+		0044F5EC189405FF005ACE87 /* Dv_AllCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dv_AllCategoriesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,12 +135,12 @@
 				0039B3E4188F2EA70083DB91 /* Dv_AppDelegate.h */,
 				0039B3E5188F2EA70083DB91 /* Dv_AppDelegate.m */,
 				0039B3E7188F2EA70083DB91 /* Main_iPhone.storyboard */,
-				0039B410188F36330083DB91 /* Dv_FilterAttributesViewController.h */,
-				0039B411188F36330083DB91 /* Dv_FilterAttributesViewController.m */,
-				0039B413188FE5F90083DB91 /* Dv_AttributeDetailsViewController.h */,
-				0039B414188FE5F90083DB91 /* Dv_AttributeDetailsViewController.m */,
+				0044F5EE18940607005ACE87 /* All Categories */,
 				0039B40D188F34250083DB91 /* Dv_FilterListViewController.h */,
 				0039B40E188F34250083DB91 /* Dv_FilterListViewController.m */,
+				0044F5E61893F0CB005ACE87 /* Filter Attributes */,
+				0044F5E51893F0AD005ACE87 /* attribute details */,
+				0044F5E41893F093005ACE87 /* attributeDetail */,
 				0039B3EA188F2EA70083DB91 /* Main_iPad.storyboard */,
 				0039B3ED188F2EA70083DB91 /* Dv_ViewController.h */,
 				0039B3EE188F2EA70083DB91 /* Dv_ViewController.m */,
@@ -168,6 +177,52 @@
 				0039B400188F2EA80083DB91 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0044F5E41893F093005ACE87 /* attributeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0044F5E11893F07E005ACE87 /* Dv_TheAttributeDetailViewController.h */,
+				0044F5E21893F07E005ACE87 /* Dv_TheAttributeDetailViewController.m */,
+			);
+			name = attributeDetail;
+			sourceTree = "<group>";
+		};
+		0044F5E51893F0AD005ACE87 /* attribute details */ = {
+			isa = PBXGroup;
+			children = (
+				0039B413188FE5F90083DB91 /* Dv_AttributeDetailsViewController.h */,
+				0039B414188FE5F90083DB91 /* Dv_AttributeDetailsViewController.m */,
+			);
+			name = "attribute details";
+			sourceTree = "<group>";
+		};
+		0044F5E61893F0CB005ACE87 /* Filter Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				0039B410188F36330083DB91 /* Dv_FilterAttributesViewController.h */,
+				0039B411188F36330083DB91 /* Dv_FilterAttributesViewController.m */,
+				0044F5EA1893F1DB005ACE87 /* Filter Categories */,
+			);
+			name = "Filter Attributes";
+			sourceTree = "<group>";
+		};
+		0044F5EA1893F1DB005ACE87 /* Filter Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0044F5E71893F1D4005ACE87 /* Dv_FilterCategoriesViewController.h */,
+				0044F5E81893F1D4005ACE87 /* Dv_FilterCategoriesViewController.m */,
+			);
+			name = "Filter Categories";
+			sourceTree = "<group>";
+		};
+		0044F5EE18940607005ACE87 /* All Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0044F5EB189405FF005ACE87 /* Dv_AllCategoriesViewController.h */,
+				0044F5EC189405FF005ACE87 /* Dv_AllCategoriesViewController.m */,
+			);
+			name = "All Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +326,9 @@
 			files = (
 				0039B415188FE5F90083DB91 /* Dv_AttributeDetailsViewController.m in Sources */,
 				0039B3EF188F2EA70083DB91 /* Dv_ViewController.m in Sources */,
+				0044F5ED189405FF005ACE87 /* Dv_AllCategoriesViewController.m in Sources */,
+				0044F5E91893F1D4005ACE87 /* Dv_FilterCategoriesViewController.m in Sources */,
+				0044F5E31893F07E005ACE87 /* Dv_TheAttributeDetailViewController.m in Sources */,
 				0039B3E6188F2EA70083DB91 /* Dv_AppDelegate.m in Sources */,
 				0039B40F188F34250083DB91 /* Dv_FilterListViewController.m in Sources */,
 				0039B3E2188F2EA70083DB91 /* main.m in Sources */,
@@ -493,6 +551,7 @@
 				0039B409188F2EA80083DB91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0039B40A188F2EA80083DB91 /* Build configuration list for PBXNativeTarget "CIImageFiltersTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +560,7 @@
 				0039B40C188F2EA80083DB91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

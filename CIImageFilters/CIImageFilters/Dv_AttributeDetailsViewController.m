@@ -58,9 +58,17 @@
 {
     static NSString *CellIdentifier = @"Cell2";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    cell.textLabel.text = [self.details objectAtIndex:indexPath.row];
-    
+    for (NSString* key in self.detailDictionary.allKeys) {
+       
+    }
+    NSString* NumberValue;
+    NSLog(@"%@",self.detailDictionary.allValues);
+    NSLog(@"%@",self.detailDictionary.allValues);
+    cell.textLabel.text = [self.detailDictionary.allKeys objectAtIndex:indexPath.row];
+    if ([[self.detailDictionary.allValues objectAtIndex:indexPath.row] isKindOfClass:[NSNumber class]] ) {
+        NumberValue = [NSString stringWithFormat:@"%@",[self.detailDictionary.allValues objectAtIndex:indexPath.row]];
+    }
+    cell.detailTextLabel.text = NumberValue;
     return cell;
 }
 

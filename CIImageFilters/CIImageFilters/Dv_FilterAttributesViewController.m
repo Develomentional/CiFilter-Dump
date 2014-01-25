@@ -8,8 +8,9 @@
 
 #import "Dv_FilterAttributesViewController.h"
 #import "Dv_AttributeDetailsViewController.h"
+NSString* categoryKey = @"CIAttributeFilterCategories";
 @interface Dv_FilterAttributesViewController ()
-
+@property(nonatomic,strong)NSArray* categoriesForFilter;
 @end
 
 @implementation Dv_FilterAttributesViewController
@@ -21,6 +22,13 @@
 
     return _filterAttributes;
     
+}
+-(NSArray*)categoriesForFilter
+{
+    if (!_categoriesForFilter) {
+        _categoriesForFilter = [[NSArray alloc]init];
+    }
+    return _categoriesForFilter;
 }
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -72,7 +80,27 @@
    // NSLog(@"%@",[self.filterAttributes.allValues objectAtIndex:indexPath.row]);
     return cell;
 }
-
+-(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"%@",self.filterAttributes);
+  //  self.categoriesForFilter = self.filterAttributes[categoryKey];
+    /*
+    NSMutableArray* details = [[NSMutableArray alloc]init];
+    for (NSDictionary* strings in [self.filterAttributes.allValues objectAtIndex:indexPath.row])
+    {
+        for (NSString* key in strings.allKeys)
+        {
+            NSLog(@"%@ Keys",key);
+           if ([key isEqualToString:categoryKey])
+            {
+                details = [strings valueForKey:categoryKey];
+            }
+   
+        }
+        //self.categoriesForFilter = details;
+        
+    }    */
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
@@ -121,7 +149,9 @@
 -(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
 {
     
-    
+    if ([identifier isEqualToString:@"filterCategories"]) {
+        return YES;
+    }
     
     if ([[self.filterAttributes.allValues objectAtIndex:[self.tableView indexPathForSelectedRow].row]isKindOfClass:[NSString class]] ) {
         return NO;
@@ -144,11 +174,25 @@
 {
     if ([segue.identifier isEqualToString:@"attribDetails"]) {
         NSMutableArray* details = [[NSMutableArray alloc]init];
-        for (NSArray* strings in [self.filterAttributes.allValues objectAtIndex:[self.tableView indexPathForSelectedRow].row]) {
-           
+        for (NSDictionary* strings in [self.filterAttributes.allValues objectAtIndex:[self.tableView indexPathForSelectedRow].row]) {
             [details addObject:strings];
+            
         }
-        [segue.destinationViewController setDetails:details];
+       // NSLog(@"%@",details);
+         [segue.destinationViewController setDetails:details];
+        [segue.destinationViewController setDetailDictionary:self.filterAttributes];
+
+    }
+    if ([segue.identifier isEqualToString:@"filterCategories"]) {
+     
+ NSMutableArray* det = [[NSMutableArray alloc]init];
+      NSLog(@"cat key:%@",self.filterAttributes[categoryKey]);
+        for (NSString* val in self.filterAttributes[categoryKey]) {
+            [det addObject:val];
+        }
+        
+
+        [segue.destinationViewController setFilterCategories:det];
     }
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.

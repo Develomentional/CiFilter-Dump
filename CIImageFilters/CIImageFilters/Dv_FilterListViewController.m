@@ -8,6 +8,7 @@
 
 #import "Dv_FilterListViewController.h"
 #import "Dv_FilterAttributesViewController.h"
+#import "Dv_FilterCategoriesViewController.h"
 @interface Dv_FilterListViewController ()
 
 @end
@@ -33,7 +34,7 @@
     
     for (NSString *filter in _filters) {
      //   NSLog(@"filter name %@", filter);
-      //  NSLog(@"filter %@", [[CIFilter filterWithName:filter] attributes]);
+        //NSLog(@"filter %@", [CIFilter filterNamesInCategory:@""]);
     }
     
     return _filters;
@@ -97,6 +98,10 @@
     return cell;
 }
 
+-(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
+{
+    
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
@@ -147,6 +152,9 @@
         CIFilter* fitler = [CIFilter filterWithName:[self.filters objectAtIndex:[self.tableView indexPathForSelectedRow].row] ];
         NSDictionary* attribs = [fitler attributes];
         [segue.destinationViewController setFilterAttributes:attribs];
+    }
+    if ([segue.identifier isEqualToString:@"filterCategories"]) {
+        
     }
 }
 
